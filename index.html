@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head> <title> Khai</title> </head>
+<body>
+  <script>
+    var startNum = parseInt(prompt(" Starting Number:"));
+    var endNum = parseInt(prompt(" Ending Number:")); 
+    var sum = 0; 
+
+    if (startNum && endNum && startNum <= endNum) {
+      for (var i = startNum; i <= endNum; i++) { sum += i; } alert(sum); } 
+    else { alert("Invalid Input");} 
+
+    window.location.reload();
+  </script>
+</body>
+</html>
